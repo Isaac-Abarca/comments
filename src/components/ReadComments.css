@@ -1,0 +1,26 @@
+.container-coments {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+  padding: 1rem;
+}
+
+.text-area {
+  width: 30rem;
+  height: 100%;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  color: black;
+  background-color: rgb(255, 255, 255);
+}
+
+.btn-comment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin-top: -0.5rem;
+}
