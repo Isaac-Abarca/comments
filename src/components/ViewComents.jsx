@@ -8,7 +8,7 @@ function ViewComments({comments}) {
     <div className="container-comments">
       {comments.map((comment, index) => (
         <div key={index}>
-          <Comments comments={comment} />
+          <Comments key={index} comments={comment} />
         </div>
       ))}
     </div>

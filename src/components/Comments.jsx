@@ -1,9 +1,9 @@
 import "./Comments.css";
 import PropTypes from "prop-types";
 
-function Comments({comments}) {
+function Comments({comments, key}) {
   return (
-    <div className="comments">
+    <div key={key} className="comments">
       <div className="cont-izq">
         <div className="user"></div>
       </div>
@@ -31,4 +31,5 @@ export default Comments;
 
 Comments.propTypes = {
   comments: PropTypes.array.isRequired,
+  key: PropTypes.number.isRequired,
 };
