@@ -5,4 +5,28 @@
     width: 100%;
     margin-top: 2rem;
     gap: 2rem;
+   
+}
+
+.container-comments-actions {
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.actions {
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+    padding-right: 2rem;
+    padding-bottom: 0.5rem;
+    align-items: center;
+    height: 2rem;
+    
+}
+
+.actions a{
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: .9rem;
+    color: blue;
 }

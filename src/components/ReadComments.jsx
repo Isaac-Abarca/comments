@@ -9,7 +9,7 @@ function ReadComments( {setComments, comments} ) {
 
   const addComment = (e) => {
     e.preventDefault();
-    setComments([...comments, commentText]);
+    setComments([commentText, ...comments]);
     setCommentText("");
   }
 

@@ -12,8 +12,7 @@ function App() {
     <div className='container-body'>
       <h1>Comments</h1>
       <ReadComments comments={comments} setComments={setComments}/>
-      <ViewComments comments={comments}/>
-
+      <ViewComments comments={comments} setComments={setComments}/>
     </div>
   )
 }

@@ -17,11 +17,6 @@ function Comments({comments, key}) {
             <p>{comments}</p>
           </div>
         </div>
-        <div className="actions">
-          <a className="danger">Eliminar</a>
-          <a className="warning">Editar</a>
-          <a className="success">Responder</a>
-        </div>
       </div>
     </div>
   );
